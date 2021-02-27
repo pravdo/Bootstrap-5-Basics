@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>BS5.1 Crash Course</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Buttons</h1>
+
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
+
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+
+
+        <button type="button" class="btn btn-outline-primary btn-lg">Primary XL</button>
+        <button type="button" class="btn btn-outline-primary btn-sm">Primary sm</button>
+        <button type="button" class="btn btn-outline-primary" disabled>Primary</button>
+
+        <hr>
+        <h1>Cards</h1>
+
+        <div class="card" style="width:18rem">
+            <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iusto voluptatum quod natus tempora ducimus vitae placeat necessitatibus. Ab possimus, exercitationem repellendus nam aspernatur esse asperiores tempore rerum ratione quis!</div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis autem amet commodi accusantium mollitia consectetur cumque tempore dolorum nobis quo nam voluptas veniam numquam ab, culpa quod doloribus incidunt eaque.
+                </div>
+            </div>
+        </div>
+
+        <div class="card my-3" style="width:18rem">
+            <img class="card-img-top" src="mdb-dark.jpg" alt="img">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nihil cumque at vero vel, sapiente aliquam provident? Cupiditate dolor perspiciatis eligendi cumque inventore quisquam? Unde cupiditate similique blanditiis voluptates eos?
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                Feautered
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, eveniet?
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Primary card title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, esse!</p>
+            </div>
+        </div>
+
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body text-secondary">
+                <h5 class="card-title">Secondary card title</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quos?</p>
+            </div>
+        </div>
+
+        <div class="card-group my-3">
+            <div class="card">
+                <img src="mdb-dark.jpg" alt="mdb" width="230px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vitae.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="mdb-dark.jpg" alt="mdb" width="230px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vitae.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="mdb-dark.jpg" alt="mdb" width="230px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, vitae.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+
+
+        </div>
+        <p>Typography</p>
+        <p>Inline</p>
+        <ul class="list-inline">
+            <li class="list-inline-item">Item 1</li>
+            <li class="list-inline-item">Item 2</li>
+            <li class="list-inline-item">Item 3</li>
+        </ul>
+        <hr>
+        <h1>Responsive images</h1>
+
+        <div style="width: 40%; ">
+            <img class="img-fluid rounded" src="mdb-dark.jpg">
+        </div>
+
+        <hr>
+        <h1>Spacing</h1>
+        <div class="p-5" style="width: 600px; margin: auto; border: 1px solid blueviolet">
+            <p class="mt-xl-3">Paragraph 1</p>
+            <p>Paragraph</p>
+
+            <div class="mx-auto" style="width: 150px; background-color: #eeeeee">
+                Centered element
+            </div>
+        </div>
+
+        <!--0 -remove margin/paddings
+            1 - spacer (1rem) * .25
+            2 - spacer (1rem) * .5
+            3 - spacer (1rem)
+            4 - spacer (1rem) * 1.5
+            5 - spacer (1rem) * 3
+        -->
+        <hr>
+        <h1>Tables</h1>
+        <table class="table table-hover table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Tom</td>
+                    <td>@yahoo</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Great</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Table Responsive</h2>
+        <!--
+    <div class="table-responsive">
+        <table class="table">
+-->
+
+
+    </div>
+
+
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
